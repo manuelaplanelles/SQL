@@ -1,0 +1,10 @@
+# Extensiones de usuario y temporales
+.vs/
+*.user
+*.suo
+*.dbmdl
+*.jfm
+
+# Carpetas de compilación
+bin/
+obj/

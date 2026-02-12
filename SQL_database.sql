@@ -1,0 +1,1 @@
+create database CRISIS_AID_MANAGEMENT

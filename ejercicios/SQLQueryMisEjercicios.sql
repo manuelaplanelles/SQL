@@ -1,0 +1,230 @@
+--EXERCISE 01
+SELECT * 
+FROM table_student 
+ORDER BY Surname1
+
+--EXERCISE 02
+SELECT * 
+FROM  table_student
+WHERE (name like 'A%')
+
+
+--EXERCISE 03
+SELECT * 
+FROM  table_student
+WHERE (city='San Vicente')
+
+
+--EXERCISE 04
+SELECT * 
+FROM  table_student
+WHERE (city='Elche' or city='Alicante')
+
+
+--EXERCISE 05
+SELECT * 
+FROM  table_student
+WHERE (surname1='González' or surname2='González')
+
+
+--EXERCISE 06
+SELECT DNI,Name, Surname1, Surname2 
+FROM  table_student 
+WHERE (DateOfBirth<'31/12/1980')
+
+
+--EXERCISE 07
+SELECT Name, Surname1 
+FROM  table_student
+WHERE (name like '[A-Z][A-Z][A-Z][A-Z]')
+
+
+--EXERCISE 08
+SELECT DNI, Name, Surname1, Phone 
+FROM table_student
+WHERE (DNI LIKE ('%R'))
+
+
+--EXERCISE 09
+SELECT Name, Surname1, Phone
+FROM table_student
+WHERE (Name<>'Pepe' AND Name<>'Antonio')
+
+
+--EXERCISE 10
+SELECT Name, Surname1, Surname2, City 
+FROM table_student
+WHERE (DateOfBirth>='01/01/1974' and DateOfBirth<='31/12/1978')
+
+
+--EXERCISE 11
+SELECT Name, Surname1,City,Phone 
+FROM table_student
+WHERE (City='Elche' AND Phone LIKE '66%')
+
+
+--EXERCISE 12
+SELECT COUNT(*) AS Total_Students 
+FROM table_student
+
+--EXERCISE 13
+SELECT name, COUNT(*) AS Total_Joses 
+FROM table_student
+WHERE name=José
+GROUP BY name
+
+
+--EXERCISE 14
+SELECT City, COUNT(*) AS Total_Per_City 
+FROM table_student
+GROUP BY city
+
+
+--EXERCISE 15
+--EXERCISE 16
+--EXERCISE 17
+--EXERCISE 18
+--EXERCISE 19
+--EXERCISE 20
+--EXERCISE 21
+--EXERCISE 22
+--EXERCISE 23
+--EXERCISE 24
+--EXERCISE 25
+--EXERCISE 26
+--EXERCISE 27
+--EXERCISE 28
+--EXERCISE 29
+--EXERCISE 30
+
+-----------------------------------LUCENTUM
+--EXERCISE 31
+--EXERCISE 32
+--EXERCISE 33
+--EXERCISE 34
+--EXERCISE 35
+--EXERCISE 36
+--EXERCISE 37
+--EXERCISE 38
+--EXERCISE 39
+--EXERCISE 40
+--EXERCISE 41
+--EXERCISE 42
+--EXERCISE 43
+--EXERCISE 44
+--EXERCISE 45
+--EXERCISE 46
+--EXERCISE 47 --select Name, sum(HoursSubject) as TOTAL_HOURS; having sum(HoursSubject)>150  --> (el mismo ejercicio que el anterior pero que se visualicen los programas con mas de 150 horas)
+--EXERCISE 48
+--EXERCISE 49
+--EXERCISE 50
+
+
+-----------------------------------UNIVERSITY
+--EXERCISE 51 --datediff(day, date_birth,getdate())/365 as Age   --> (me calcula los dias vividos y los debido en 365. para calcular los años por dias)
+--EXERCISE 52
+--EXERCISE 53
+--EXERCISE 54
+--EXERCISE 55
+--EXERCISE 56
+--EXERCISE 57
+--EXERCISE 58
+--EXERCISE 59
+--EXERCISE 60
+--EXERCISE 61
+--EXERCISE 62
+--EXERCISE 63
+
+
+-----------------------------------AMX
+--EXERCISE 64
+--EXERCISE 65
+--EXERCISE 66
+--EXERCISE 67
+--EXERCISE 68
+--EXERCISE 69
+--EXERCISE 70
+--EXERCISE 71
+--EXERCISE 72
+--EXERCISE 73
+--EXERCISE 74
+--EXERCISE 75
+--EXERCISE 76
+--EXERCISE 77
+--EXERCISE 78
+--EXERCISE 79
+--EXERCISE 80
+--EXERCISE 81
+--EXERCISE 82
+--EXERCISE 83
+--EXERCISE 84
+--EXERCISE 85
+--EXERCISE 86
+--EXERCISE 87
+--EXERCISE 88
+--EXERCISE 89
+
+
+-----------------------------------FILMS
+--EXERCISE 90
+--EXERCISE 91
+--EXERCISE 92
+--EXERCISE 93
+--EXERCISE 94
+--EXERCISE 95
+--EXERCISE 96
+--EXERCISE 97
+--EXERCISE 98
+--EXERCISE 99
+--EXERCISE 100
+--EXERCISE 101
+
+
+-----------------------------------GARDENING
+--EXERCISE 102
+--EXERCISE 103
+--EXERCISE 104
+--EXERCISE 105
+--EXERCISE 106
+--EXERCISE 107
+--EXERCISE 108
+--EXERCISE 109
+--EXERCISE 110
+--EXERCISE 111
+--EXERCISE 112
+--EXERCISE 113
+--EXERCISE 114
+--EXERCISE 115
+--EXERCISE 116
+--EXERCISE 117
+--EXERCISE 118
+--EXERCISE 119
+--EXERCISE 120
+--EXERCISE 121
+--EXERCISE 122
+--EXERCISE 124
+--EXERCISE 125
+--EXERCISE 126
+--EXERCISE 127
+--EXERCISE 129
+--EXERCISE 130
+--EXERCISE 131
+--EXERCISE 132
+--EXERCISE 133
+--EXERCISE 134
+--EXERCISE 135
+--EXERCISE 136
+--EXERCISE 137
+--EXERCISE 138
+--EXERCISE 139
+--EXERCISE 140
+--EXERCISE 141
+--EXERCISE 142
+--EXERCISE 143
+--EXERCISE 144
+--EXERCISE 145
+--EXERCISE 146
+--EXERCISE 147
+--EXERCISE 148
+--EXERCISE 149
+--EXERCISE 150
